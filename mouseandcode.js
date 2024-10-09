@@ -339,6 +339,8 @@ require('events').EventEmitter.defaultMaxListeners = 20; // Set the maximum numb
 
         //////TEST CODE 
         // **NEEDS TO BE CHANGED, THOUGH YOU ALREADY KNOW WHAT TO DO**
+        // Look at the IDs and their text, do not forget to clean it up
+
 
 
         //Selecting the tabs EXTENSIONS LEFT
