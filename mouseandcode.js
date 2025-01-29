@@ -132,7 +132,8 @@ require('events').EventEmitter.defaultMaxListeners = 20; // Set the maximum numb
         copySketchFunction(editOptions1, newPage);
         // Select sketch to click or unclick, good code to select and unselect
         await waitForEnter();
-        const title20 = '(3) Extrude Sketch(1.03)'; // Replace with the desired title
+        // const title20 = '(3) Extrude Sketch(1.03)'; // Replace with the desired title
+        const title20 = '(3) Extrude Sketch(1.03) is not fully defined'; // Replace with the desired title
         const editOptions20 = await performRightClickOptionByTitle(newPage, selector7, title20);
         //Testing code
         console.log("PPPPPPPPPP");
