@@ -2,6 +2,7 @@
 
 const puppeteer = require('puppeteer');
 require('dotenv').config();
+console.log
 
 const { launchBrowserAndNavigateToDocument } = require('./components/launchBrowserAndNavigate.js');
 const { newSketch } = require('./components/newSketch.js');
