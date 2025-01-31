@@ -216,6 +216,12 @@ require('events').EventEmitter.defaultMaxListeners = 20; // Set the maximum numb
         console.log(''); // This logs an empty line, effectively skipping a line
 
 
+
+
+
+
+
+        //January 30th of 2025
         ////////////////////////////////////////////////////////////////////////////
         // WORKING ON NEW CODE
         console.log("BBBBBBBBBBB");
@@ -295,7 +301,8 @@ require('events').EventEmitter.defaultMaxListeners = 20; // Set the maximum numb
         console.log("OOOOOOOOOOOO");
         console.log(''); // This logs an empty line, effectively skipping a line
         const selector12 = 'div[data-id="S2gcrVk07xQzvvV1"]'; // Replace with the appropriate selector
-        const title12 = 'Fillet 1 did not regenerate properly: Select edges or faces to fillet.<br>1 missing selection';
+        // const title12 = 'Fillet 1 did not regenerate properly: Select edges or faces to fillet.<br>1 missing selection'; 
+        const title12 = 'Fillet 1 did not regenerate properly: Select edges or faces to fillet.'; //Test
         const editOptions12 = await performRightClickOptionByTitle(newPage, selector12, title12);
         console.log("PPPPPPPPPPPP");
         console.log(''); // This logs an empty line, effectively skipping a line
@@ -322,7 +329,8 @@ require('events').EventEmitter.defaultMaxListeners = 20; // Set the maximum numb
         console.log("HHHHHHHHHHH");
         console.log(''); // This logs an empty line, effectively skipping a line
         const selector13 = 'div[data-id="098TXre2LrwgVvuP"]'; // Replace with the appropriate selector
-        const title13 = 'Chamfer 1 did not regenerate properly: Select edges or faces to chamfer.<br>2 missing selections';
+        // const title13 = 'Chamfer 1 did not regenerate properly: Select edges or faces to chamfer.<br>2 missing selections';
+        const title13 = 'Chamfer 1 did not regenerate properly: Select edges or faces to chamfer.';
         const editOptions13 = await performRightClickOptionByTitle(newPage, selector13, title13);
         console.log("IIIIIIIIIII");
         console.log(''); // This logs an empty line, effectively skipping a line
@@ -338,6 +346,10 @@ require('events').EventEmitter.defaultMaxListeners = 20; // Set the maximum numb
         await selectOkButton(newPage);
         console.log("HHHHHHHHHHH");
         console.log(''); // This logs an empty line, effectively skipping a line
+
+
+
+
 
 
 
